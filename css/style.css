@@ -100,6 +100,19 @@ h1, h2, h3, h4, h5, h6, figure {
   user-select: none;
 }
 
+.nomarginpad {
+  margin: 20px 0 5px 10px;
+}
+
+.project-post {
+  width: 40%;
+  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  float: left;
+  margin: 20px;
+}
+
 .fh5co-nav {
   background: #fff;
 }
@@ -408,6 +421,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-features {
   background: #68c3ff;
+}
+#fh5co-noindent {
+  padding: 0em;
 }
 #fh5co-features .services-padding {
   padding: 7em 0;

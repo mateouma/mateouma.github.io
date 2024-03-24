@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Music</title>
+	<title>Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="My landing page, and blog" />
 	<meta name="author" content="Mateo Umaguing" />
@@ -48,7 +48,7 @@
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li><a href="portfolio.html">Portfolio</a></li>
+								<li class="active"><a href="portfolio.html">Portfolio</a></li>
 								<li class="has-dropdown">
 									<a href="blog.html">Blog</a>
 									<ul class="dropdown">
@@ -65,29 +65,76 @@
 				</div>
 			</div>
 		</nav>
-
-	<div id="fh5co-blog">
+	
+	<div id="fh5co-blog fh5co-noindent">
 		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Music</h2>
-					<p><i>"I can't live one day without hearing music, playing it, studying it, or thinking about it." - Leonard Bernstein</i></p>
-				</div>
-			</div>
+			<h1>Portfolio</h1>
+
+			<p>Here is a list of selected projects.</p>
+
 			<div class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="musichaul310.html" class="blog-bg" style="background-image: url(blogposts/images/bernstein.jpg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Mar. 10 2024</span>
-							<h3><a href="musichaul310.html">Music Haul 3/10</a></h3>
-							<p>What I've been listening to the past couple months.</p>
-							<ul class="stuff">
-								<li><a href="musichaul310.html">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
+			
+				<div class="project-post animate-box">
+					<img src="images/nathacks.png" style="width:100%">
+					<h2 class="nomarginpad">EEG-based P300 Truth Elicitor</h2>
+					<p style="padding: 10px;">
+						<a href="https://devpost.com/software/clue-the-bci-expansion">Devpost</a>  | <a href="https://github.com/sandrakaron/nathacks_Ohio_Rizzlers_P3TE">GitHub Repo</a><br>
+						This was a project completed with Sandra Karon, Darren Vawter, Steven Veld, Ben Falkenburg, and Davis Sandberg that <b>won 1st place in natHACKS:
+						Canada's largest neurotechnology hackathon</b> in 2023. This is a brain-computer interface (BCI) game designed to uncover hidden information
+						from a subject. This project made use of a personally-designed bootstrap signal correlation algorithm.
+					</p>
 				</div>
+
+				<div class="project-post animate-box">
+					<img src="images/emgdecomp.png" style="width:100%">
+					<h2 class="nomarginpad">EMG Decomposition</h2>
+					<p style="padding: 10px;">
+						<a href="https://github.com/mateouma/EMG-Decomposition">GitHub Repo</a><br>
+						This was a project completed for my Neuroengineering class (BIOENGR M260 @ UCLA). In this project, I had to decompose electromyography (EMG) signals into individual motor unit action potentials (MUAPs).
+						I used basic signal processing, dimension reduction, and clustering techniques in Python to do so.
+					</p>
+				</div>
+				
+				<div class="project-post animate-box">
+					<img src="images/optogamma.png" style="width:100%">
+					<h2 class="nomarginpad">Exploring Differential Effects of Gamma Stimulation on Alzheimer's Disease</h2>
+					<p style="padding: 10px;">
+						<a href="https://intranscriptionatucla.org/biohackathon/results/">InT BioHackathon</a> | <a href="https://github.com/mateouma/Gamma-Stimulation-AD-Proposal">GitHub Repo</a><br>
+						In this project completed with John Walkiewicz and Logan Umaguing, we designed a research proposal in which we aimed to evaluate the efficacy
+						of multimodal gamma stimulation on Alzheimer's Disease (AD). With this project, we achieved <b>runner up at the InTranscription BioHackathon 2023.</b>
+					</p>
+				</div>
+				
+				<div class="project-post animate-box">
+					<img src="images/ssvep.png" style="width:100%">
+					<h2 class="nomarginpad">Vehicular Remote Online Ocular brain-Machine interface (VROOM)</h2>
+					<p style="padding: 10px;">
+						<a href="https://github.com/mateouma/CruX-Team2">GitHub Repo</a><br>
+						This is the CruX Neurotech project I did with Avantika Aggarwal, Hanna Boughanem, Paige Lee, Sree Nagaraj, Srivarsha Rayasam, Anish Thalamati, and Audrey Ngai.
+						Here, we sought to control a remote-control car with EEG signals. We presented our work at the <b>2023 California Neurotechnology Conference</b>.
+					</p>
+				</div>
+				
+				<div class="project-post animate-box">
+					<img src="images/mtwhitneymap.png" style="width:100%">
+					<h2 class="nomarginpad">GIS Coursework</h2>
+					<p style="padding: 10px;">
+						<a href="https://github.com/mateouma/GIS-Coursework">GitHub Repo</a><br>
+						This is a collection of my work in Introductory GIS (GEOG 7 @ UCLA). This was all done in QGIS and Adobe Illustrator.
+					</p>
+				</div>
+
+				<div class="project-post animate-box">
+					<img src="images/corrplot.png" style="width:100%">
+					<h2 class="nomarginpad">Statistical Modeling Projects</h2>
+					<p style="padding: 10px;">
+						<a href="https://github.com/mateouma/Statistical-Modeling-Projects">GitHub Repo</a><br>
+						These are statistical machine learning projects done with Andra Velea and Aryan Mistry in Statistical Models
+						and Data Mining (STATS 101C @ UCLA). <b>We competed in class-wide regression and classification task Kaggle competitions
+						and received first place for testing accuracy.</b>
+					</p>
+				</div>
+			
 			</div>
 		</div>
 	</div>
