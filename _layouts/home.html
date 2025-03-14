@@ -4,11 +4,18 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-6">
-    <h3 class="fw-bold">Research</h3>
+    <h3 class="fw-bold">About</h3>
     {{ content }}
   </div>
-  <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%">
+  <div class="col-md-6 text-center">
+    <img src="{{ site.github.url }}/assets/img/profile.png" alt="Home" width="70%" style="object-fit: cover; border-radius: 50%">
+    <div class="mt-4">
+      {% for item in site.data.settings.social %}
+        <a href="{{ item.link }}" class="mx-1 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
+      {% endfor %}
+        <a href="https://open.spotify.com/user/mnqev8wbmpvrn8e6rkd0gu9bl?si=28872432ca7046af&nd=1&dlsi=e33516cee57b4c9f" class="mx-1 fs-5"><i class="fab fa-spotify"></i></a>
+        <a href="https://www.goodreads.com/user/show/164049341-mateo" class="mx-1 fs-5"><i class="fas fa-book"></i></a>
+    </div>
   </div>
 </div>
 
